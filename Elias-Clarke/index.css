@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Tinos:400');
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #ffffff;
+  height: 95px;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 3rem;
+  font-family: 'Tinos', serif;
+}
+
+.links{
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  bottom: 30px;
+  left: 285px;
+  word-spacing: 30px;
+}
+
+.links a{
+  text-decoration: none;
+  color: black;
+
+}
+.link{
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  text-align: right;
+  position: relative;
+  bottom: 47px;
+  right: 275px;
+  word-spacing: 30px;
+}
+
+.link a{
+  text-decoration: none;
+  color: black;
+}
+
+.background {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.slideshow {
+  background-color: #ffffff;
+  height: 430px;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+
+}
