@@ -58,21 +58,6 @@ body {
   z-index: -1;
 }
 
-.slideshow {
-  background-color: #ffffff;
-  height: 430px;
-  width: 90%;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-top: 50px;
-  padding-top: 30px;
-}
-
-.mySlides fade_1 {
-  background-image: url(style.jpg);
-  height:340px;
-  background-position: center;
-}
 
 
 
