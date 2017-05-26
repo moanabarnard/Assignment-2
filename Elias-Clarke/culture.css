@@ -64,7 +64,7 @@ body {
 
 @media screen and (max-width: 550px) {
   .logo {
-    font-size: 1em;
+    font-size: 2em;
   }
 
   .links-l {

@@ -68,25 +68,23 @@ body {
   padding-top: 30px;
 }
 
-.mySlides fade_1 {
-  background-image: url(style.jpg);
-  height:340px;
-  background-position: center;
-}
 
 
 
 
 @media screen and (max-width: 550px) {
   .logo {
-    font-size: 1em;
+    font-size: 1.15em;
+    padding-top: 34px;
   }
 
   .links-l {
     font-size: 0.5em;
+    word-spacing: 15px;
   }
 
   .links-r {
     font-size: 0.5em;
+    word-spacing: 15px;
   }
 }
