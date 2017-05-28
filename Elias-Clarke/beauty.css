@@ -2,6 +2,10 @@
 
 body {
   margin: 0;
+  background-repeat: repeat-y;
+  background-image: url("sparkles.gif");
+  background-size: 100% 100%;
+
 }
 
 .header {
@@ -46,7 +50,6 @@ body {
 .header a{
   text-decoration: none;
   color: black;
-
 }
 
 .background {
@@ -58,20 +61,104 @@ body {
   z-index: -1;
 }
 
+.beauty-post {
+  background-color: #ffffff;
+  height: 1000px;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 42px;
+  padding-top: 30px;
+}
+
+.image1 {
+  padding-left: 30px;
+}
+
+.shine {
+  padding-left: 30px;
+  padding-top: 20px;
+  font-family: 'Tinos', serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.row {
+  width: 1090px;
+  padding-left: 90px;
+}
+
+.footer {
+	background-color: #ffffff;
+	width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+	text-align: left;
+	font: normal 16px sans-serif;
+  height: 95px;
+	margin-top: 42px;
+}
 
 
+.copywrite{
+  padding-right: 30px;
+  padding-top: 28px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  float: right;
+}
 
+.footer-icons{
+	float: left;
+	max-width: 300px;
+  padding-left: 30px;
+  padding-top: 35px;
+
+}
+
+.footer-icons i{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #e9d4e0;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 3px;
+}
 
 @media screen and (max-width: 550px) {
+
+
   .logo {
-    font-size: 1em;
+    font-size: 1.15em;
+    padding-top: 34px;
   }
 
   .links-l {
     font-size: 0.5em;
+    word-spacing: 15px;
   }
 
   .links-r {
     font-size: 0.5em;
+    word-spacing: 15px;
   }
+
+
+	.footer-icons{
+    text-align: center;
+		float: none;
+		padding-left: 55px;
+	}
+
+  .copywrite {
+    text-align: center;
+		float: none;
+    padding-left: 35px;
+    padding-bottom: 30px;
+  }
+
 }
